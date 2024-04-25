@@ -1,0 +1,22 @@
+@media(max-width:992px)
+{
+    #main
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+   
+}
+@media(max-width:600px)
+{
+     #main
+     {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+     }
+     #new
+     {
+        overflow: hidden;
+        height: 150vh;
+     }
+}
